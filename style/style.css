@@ -602,7 +602,7 @@ footer * {
 form.barra input[type=text] {
   padding: 10px;
   font-size: 30px;
-  border: 1px solid black;
+  border: 1px solid white;
   float: left;
   width: 80%;
   background: rgba(0,0,0,0.5);
@@ -621,7 +621,7 @@ form.barra button {
   margin-top: 100px;
   color: white;
   font-size: 30px;
-  border: 1px solid black;
+  border: 1px solid white;
   border-left: none; /* Prevent double borders */
   cursor: pointer;
 }
