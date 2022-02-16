@@ -608,6 +608,7 @@ form.barra input[type=text] {
   background: rgba(0,0,0,0.5);
   box-shadow: 0 4px 8px 0 rgba(10, 10, 10, 0.5), 0 6px 20px 0 rgba(10, 10, 10, 0.49);
   margin-top: 100px;
+  color: white;
 }
 
 /* Style the submit button */
@@ -746,7 +747,7 @@ form.barra::after {
 
 /* Pulsante Torna su */
 #tornasu {
-  display: none;
+  display: block;
   position: fixed;
   bottom: 20px;
   right: 30px;

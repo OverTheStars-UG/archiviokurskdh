@@ -2,7 +2,7 @@ window.onscroll = function() {sticnav()};
 
 var navbar = document.getElementById("sticky-nav");
 var sticky = navbar.offsetTop;
-
+var bottonesu = document.getElementById("tornasu");
 function sticnav() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
@@ -89,7 +89,7 @@ function openCountry(evt, cityName) {
 }
 
 
-//Bottone torna su
+/*Bottone torna su
   var bottonesu = document.getElementById("tornasu");
 
   window.onscroll = function() {togglaBottone()};
@@ -100,9 +100,8 @@ function openCountry(evt, cityName) {
         } else {
                 bottonesu.style.display = "none";
         }
-        }
+        }*/
 
-// When the user clicks on the button, scroll to the top of the document
     function topFunction() {
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
