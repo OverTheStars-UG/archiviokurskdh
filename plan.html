@@ -1,0 +1,252 @@
+<!doctype html>
+<head>
+	<title>Kursk > WPP</title>
+  	<link rel="icon" type="image/icon type" href="favicon.ico">
+	<meta charset="UTF-8">
+	<!-- Navigazione -->
+	<meta name="keywords" content="HTML, Unibo, Digital Humanities">
+	<!-- Compatibilità -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Stile -->
+	<link rel="stylesheet" href="style/style.css"> 
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Bayon'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- DUBLINCORE -->
+	<meta name="DC.Title" content="La Battaglia di Kursk">
+	<meta name="DC.Creator" content="Francesco Ghedini">
+	<meta name="DC.Subject" content="Materiali sull'epocale battaglia">
+	<meta name="DC.Description" content="Archivio fotografico e informativo">
+	<meta name="DC.Date" content="16/02/22">
+	<meta name="DC.Type" content="Raccolta di materiale multimediale">
+	<meta name="DC.Format" content="Archivio online">
+	<meta name="DC.Source" content="Wikipedia">
+	<meta name="DC.Language" content="ITA">
+</head>
+
+<body>
+ 		<button onclick="topFunction()" id="tornasu" class="font-bayon" title="Go to top">Torna su</button>
+	<header>
+		<div class="row">
+			<div class="column-header">
+				<p><a href="index.html"><img class="shadow" src="style/images/logo.png" alt="logo"></a></p>
+				<p><h1 class="title-home">ARCHIVIO KURSK</h1></p>
+			</div>	
+			<div class="column-searchbar">
+				<form class="barra" action="action_page.php">
+  					<input type="text" placeholder="Cerca nel sito..." name="search">
+  					<button type="submit"><i class="fa fa-search"></i></button>
+				</form>				
+			</div>		
+		</div>
+	</header>
+	<nav id="sticky-nav" class="topnav">
+  		<a href="index.html" class="nav-left">Home</a>
+  		<a href="personaggi.html" class="nav-left">Personaggi</a>
+  		<a href="#" class="nav-left">Mezzi</a>	
+   		<a href="#" class="nav-left">Fotografie</a>
+  		<a href="plan.html" target="blank" class="nav-right active">Web Project Plan</a>
+    	<a href="javascript:void(0);" class="icon" onclick="respnav()">
+    		<i class="fa fa-bars"></i>
+    	</a>
+	</nav>
+	<div class="beige">
+		<ul class="breadcrumb">
+  			<li><a href="index.html">Home</a></li>
+  			<li>Web Project Plan</li>
+		</ul>
+		<h1>Web Project Plan</h1>
+		<ol class="indice-wpp shadow">
+			<p class="indice-wpp-titolo">Indice:</p>
+			<li><a href="#briefing">Briefing</a></li>
+			<li><a href="#benchmark">Benchmark</a></li>
+			<li><a href="#struttura">Struttura</a></li>
+			<li><a href="#layout">Layout</a></li>
+			<li><a href="#usabilita">Usabilità</a></li>
+			<li><a href="#servizi">Servizi</a></li>
+			<li><a href="#bibliografia">Bibliografia</a></li>
+		</ol>
+		<h2 id="briefing">1. Briefing</h2>
+		<ul class="lista-wpp">
+			<li>
+			<h4>Contenuti e Obiettivi</h4>
+			<p>Il progetto vuole essere una risorsa web finalizzata alla descrizione e raccolta dei dati principali (fotografie dal fronte, brevi biografie degli ufficiali, veicoli militari) relativi alla <strong>Battaglia di Kursk del 1943</strong>, il più grande scontro tra carri armati della storia, con l'obiettivo di far ottenere, a un pubblico non specializzato, una <strong>visione a 360 gradi</strong> di questa battaglia epocale.</p>
+			</li>
+			<li><h4>Pubblico di riferimento</h4>
+			<p>Il pubblico di riferimento è composto da semplici <strong>appassionati “amatoriali”</strong> della Seconda Guerra Mondiale e di storia militare. L’opera sarà composta in <strong>italiano</strong>. Le informazioni saranno riportate in un <strong>linguaggio quotidiano</strong> e il più possibile comprensibile. </p>
+			</li>
+			<li><h4>Accesso alla risorsa</h4>
+			<p>L’accesso alla risorsa sarà studiato da <strong>PC</strong>, ma saranno messi in atto <strong>accorgimenti</strong> per un layout “responsive” in modo da permettere il godimento della risorsa anche da <strong>piattaforme portatili</strong>, oggi le più diffuse.</p>	
+			</li>
+			<li><h4>Fonte dei contenuti</h4>
+			<p>I contenuti saranno prelevati da risorse digitali, nello specifico siti web specialistici o Wikipedia per i testi e Wikicommons per i contenuti multimediali, salvo eccezioni.</p>
+			</li>
+		</ul>	
+	</div>
+	<div class="rosso">
+		<h2 id="benchmark">2. Benchmark</h2>
+		<ul class="lista-wpp">		
+			<li><h4>Analisi siti concorrenti</h4>
+			<ul class="sottolista-wpp">
+				<li>
+				<p><strong><a href="http://battleofkursk.yolasite.com/" target="_blank" title="http://battleofkursk.yolasite.com/">Battleofkursk.yolasite</a></strong><br>
+				Articolato in un’unica pagina, le informazioni non sono organizzate in modo chiaro ma con un unico flusso di testo (senza nessuna differenziazione nel font) che mescola dati numerici e informazioni operative, non esiste metanavigazione, vi sono poche immagini, non c’è nessun tool o animazione. Inoltre a differenza del nostro progetto <strong>non si tratta di una raccolta</strong>.</p>
+				</li>
+				<li>
+				<p><strong><a href="https://warfarehistorynetwork.com/tag/battle-of-kursk/" target="_blank" title="https://warfarehistorynetwork.com/tag/battle-of-kursk/">Battle of Kursk Archives</a></strong><br>
+				In questo caso, il <em>competitor</em> ha realizzato un progetto decisamente <strong>simile al nostro</strong>, raccogliendo fotografie, mezzi e personaggi. Il comparto grafico è più curato dell’esempio precedente.<br>
+				Ma le fotografie e i personaggi sono presentati in <strong>ordine</strong> totalmente <strong>sparso</strong>, senza accorgimenti grafici come quelli che attueremo (i.e. colori specifici per i due schieramenti), e con un numero troppo elevato di oggetti (alcuni nemmeno relativi alla battaglia in questione) e link in aside (che non riguardano l’argomento della pagina), tanto da <strong>confondere</strong> l’utente.<br>
+				Inoltre, il suddetto <em>competitor</em> consiste in un’unica pagina parte di un progetto più vasto ("<cite>Warfare History Network</cite>"), dunque anche in questo caso è assente metanavigazione relativa all'evento di nostro interesse ed è facile allontanarsi dall’argomento principale.</p>						
+				</li>
+			</ul>
+			</li>
+			<li><h4>Perché il nostro sito</h4>
+			<p>La nostra risorsa digitale sarà organizzata in modo più leggibile e <em>user-friendly</em> dei nostri, con maggiori strumenti di navigazione interni, e con uno stile grafico più aggiornato agli standard odierni, concentrandosi esclusivamente sull’argomento di competenza senza divagazioni che possano confondere gli utenti.<br>
+			Inoltre essendo realizzata in italiano andrà a fornire uno strumento utile a chi non è pratico della lingua inglese, essendo tutti i <em>competitors</em> che ci è stato possibile rilevare realizzati in lingue straniere.</p>
+			</li>
+		</ul>
+	</div>
+	<div class="beige">
+		<h2 id="struttura">3. Struttura</h2>
+		<ul class="lista-wpp">
+			<li><h4>Mappa Concettuale</h4>
+			<iframe title="Mappa Concettuale" class="shadow" frameborder="no" border="0" marginwidth="0" marginheight="0" width=800 height=400 src="https://edrawcloudpublicus.s3.amazonaws.com/viewer/self/2166325/share/2022-2-13/1644750953/main.svg"></iframe>
+			<p><a href="immagini/wpp/mappa.jpg" target="_blank" title="mappa.jpg">[Apri immagine]</a></p>
+			</li>
+			<li><h4>Schema delle Dipendenze</h4>
+			<iframe title="Schema Dipendenze" class="shadow" frameborder="no" border="0" marginwidth="0" marginheight="0" width=800 height=400 src="https://edrawcloudpublicus.s3.amazonaws.com/viewer/self/2166325/share/2022-2-13/1644754252/main.svg"></iframe>
+			<p><a href="immagini/wpp/schema.jpg" target="_blank" title="schema.jpg">[Apri immagine]</a></p>
+			</li>
+			<li><h4>Categorie Descrittive</h4>
+			<p>Categorie descrittive di un item (fotografia):</p>
+			<ul class="sottolista-wpp">
+				<li>Titolo</li>
+				<li>Data creazione</li>
+				<li>Autore</li>
+				<li>Fonte</li>
+				<li>Dimensioni</li>
+				<li>Diritti</li>
+			</ul>
+			</li>
+		</ul>	
+	</div>
+	<div class="rosso">
+		<h2 id="layout">4. Layout</h2>
+		<ul class="lista-wpp">
+			<li><h4>Wireframe Home</h4></li>
+			<a href="immagini/WPP/wireframe-home.jpg" target="_blank"><img class="shadow" src="immagini/WPP/wireframe-home.jpg"></a>
+			<li><h4>Wireframe Catalogo</h4></li>
+			<a href="immagini/WPP/wireframe-navigazione.jpg" target="_blank"><img class="shadow" src="immagini/WPP/wireframe-home.jpg"></a>
+			<li><h4>Wireframe Item</h4></li>
+			<a href="immagini/WPP/wireframe-item.jpg" target="_blank"><img class="shadow" src="immagini/WPP/wireframe-item.jpg"></a>
+		</ul>	
+	</div>
+	<div class="beige">
+		<h2 id="usabilita">5. Usabilità</h2>
+		<ul class="lista-wpp">
+			<li><h4>Accorgimenti architettura</h4>
+			<p>Si tenterà di fornire un'architettura quanto più navigabile e comprensibile. A questo fine si darà sempre modo di <strong>tornare alla home</strong>, dalla navbar (che sarà <em>"sticky"</em> con non più di 5 link), dal <strong>logo</strong> in testata e con l'utilizzo delle <strong>briciole di pane</strong>.<br>
+			Gli strumenti di navigazione resteranno nella stessa posizione in ogni pagina.<br>
+			Si utilizzeranno molte div distinte in modo da creare <strong>isole tematiche</strong> facilmente distinguibili.<br>
+			Verranno inoltre utilizzate <em>media queries</em> per garantire la funzionalità del sito indipendentemente dalla dimensione del <em>device</em> utilizzato.
+			</p>
+			<li><h4>Accorgimenti layout e scrittura</h4>
+			<p>Per quanto riguarda la <strong>tipografia</strong>, si utilizzeranno un web safe font facilmente leggibile (Verdana) per la maggior parte dei testi e 
+			un google font (Bayon, con fallback su un altro web safe font, Helvetica) per navbar, footer e la descrizione nelle card dei personaggi.<br>
+			Si utilizzerà il <strong>grassetto</strong> per evidenziare le parole chiave e l'<em>enfasi</em> per citazioni o informazioni particolari. Lo stile di scrittura sarà quanto più possibile chiaro e conciso.<br>
+			I <strong>colori</strong> saranno utilizzati in alcuni casi con precisi significati (per esempio si assocerà il <span class="grey-GER">grigio scuro</span> alla Germania, il <span class="red-SOV">rosso</span> ai sovietici nella sezione "Personaggi"), e in generale per distinguere ulteriormente le isole tematiche. I colori utilizzati sono pochi e ricorrenti per non confondere l'utente.<br>
+			Qualora saranno presenti testi troppo lunghi, si utilizzerà l'<em>inline navigation</em>.<br>
+			Paragrafi, titoli, liste e andate a capo utilizzate con criterio aiuteranno a spezzare il testo.
+			</p>
+			</li>
+		</ul>	
+	</div>
+	<div class="rosso">
+		<h2 id="servizi">6. Servizi</h2>
+		<ul class="lista-wpp">
+			<li><h4>Browsing</h4>
+			<p>Oltre alla navigazione primaria si forniranno altri strumenti di browsing, quali una <em>"slideshow"</em> nella Home Page che fornirà una selezione dei migliori articoli e un sistema di <strong>ricerca interno</strong> tramite <em>search bar</em> sempre accessibile nell'header.<br>
+			Saranno disponibili mappe incorporate tramite <em>iframe</em> da Google Maps.
+			</p>
+			</li>
+			<li><h4>Arricchimento</h4>
+			<p>Si impiegherà un gran numero di strumenti di arricchimento, tra cui le seguenti <em>utilities</em> dalla sezione HOWTO del sito <a href="https://www.w3schools.com/howto/default.asp" target="_blank" title="https://www.w3schools.com/howto/default.asp"><cite>W3Schools</cite></a>.</p>
+			<ul class="sottolista-wpp">
+				<li><strong>Menus:</strong><br>
+				Responsive e sticky navbar, tab (divisione dei comandanti per nazione), breadcrumbs, search bar.
+				</li>
+				<li><strong>Images:</strong><br>
+				Slideshow (selezione nella home).
+				</li>
+				<li><strong>Forms:</strong><br>
+				Search button.
+				</li>
+				<li><strong>Filter:</strong><br>
+				Filter DIV elements (riordinare diverse div), sort list (per riordinare i comandanti in ordine alfabetico).
+				</li>
+				<li><strong>More:</strong><br>
+				Cards (per i comandanti).
+				</li>
+			</ul>
+			</li>
+		</ul>	
+	</div>
+	<div class="beige">
+		<h2 id="bibliografia">7. Bibliografia/Sitografia</h2>
+		<ul class="lista-wpp">
+			<li><h4>Codice:</h4>
+			<ul class="sottolista-wpp">
+				<li>HTML, CSS e JavaScript: <a href="https://www.w3schools.com/" target="_blank" title="https://www.w3schools.com/">W3Schools</a></li>
+			</ul>
+			</li>
+			<li><h4>Riferimenti componenti multimediali:</h4>
+			<ul class="sottolista-wpp">
+				<li>Alcuni spunti per layout e decorazione: <a href="https://encyclopedia.1914-1918-online.net/home/" target="_blank" title="https://encyclopedia.1914-1918-online.net/home/">Encyclopedia.1914-1918</a>, <a href="https://www.europeana.eu/it" target="_blank" title="https://www.europeana.eu/it">europeana.eu</a></li>
+			</ul>
+			</li>
+			<li><h4>Tools:</h4>
+			<ul class="sottolista-wpp">
+				<li><a href="https://www.favicon.cc/" target="_blank" title="https://www.favicon.cc/">Favicon.cc</a></li>
+				<li><a href="https://www.edrawmind.com/it/" target="_blank" title="https://www.edrawmind.com/it/">Edrawmind</a></li>
+				<li><a href="https://www.getpaint.net/" target="_blank" title="https://www.getpaint.net/">Paint.net</a></li>
+				<li><a href="https://hotpot.ai/colorize-picture" target="_blank" title="https://hotpot.ai/colorize-picture">Hotpot.ai</a></li>
+			</ul>
+			</li>
+			<li><h4>Informazioni sull'argomento:</h4>
+			<ul class="sottolista-wpp">
+				<li><a href="https://en.wikipedia.org/wiki/Battle_of_Kursk" target="_blank" title="https://en.wikipedia.org/wiki/Battle_of_Kursk">Wikipedia (EN), pagina "<cite>Battle of Kursk</cite>"</a></li>
+				<li><a href="https://it.wikipedia.org/wiki/Battaglia_di_Kursk" target="_blank" title="https://it.wikipedia.org/wiki/Battaglia_di_Kursk">Wikipedia (IT), pagina "<cite>Battaglia di Kursk</cite>"</a></li>
+				<li><a href="https://en.wikipedia.org/wiki/Georgy_Zhukov" target="_blank" title="https://en.wikipedia.org/wiki/Georgy_Zhukov">Wikipedia (EN), pagina "<cite>Georgy Zukhov</cite>"</a></li>
+			</ul>
+			</li>
+		</ul>	
+	</div>
+
+	<footer>
+		<div class="row">
+			<div class="column">	
+				<p>Progetto dell'esame di Informatica Umanistica durante l'Anno Accademico 2021/2022.</p>
+				<hr>	
+				<p>&copy Copyright (c) 2022 All Rights Reserved by Francesco Ghedini.</p>
+			</div>
+			<div class="column-mini">
+					<p><a href="" target="blank">Chi siamo</a><br>
+					<a href="" target="blank">Contattaci</a><br>
+					<ul class="social-icons">
+			          <li><a href="#" title="Facebook" class="fa fa-facebook"></a></li>
+			          <li><a href="#" title="Twitter" class="fa fa-twitter"></a></li>
+			          <li><a href="#" title="Instagram" class="fa fa-instagram"></a></li>  
+			          <li><a href="#" title="" class="fa fa-podcast"></a></li> 
+			      	</ul>	
+					</p>
+			</div>
+			<div class="column-mini">
+				<p><a href="" target="blank">Bibliografia</a><br>	
+					<a href="" target="blank">Privacy policy</a>					
+			   	</p>
+			</div>
+			</div>
+		</div>
+	</footer>
+<script src="style/main.js"> 
+</script>
+</body>
